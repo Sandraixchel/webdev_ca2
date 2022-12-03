@@ -335,6 +335,7 @@ label {
 
 button {
   border-radius: 0;
+ 
 }
 
 button:focus:not(:focus-visible) {
@@ -377,12 +378,14 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  color:#0c4128;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
 [type=submit]:not(:disabled) {
   cursor: pointer;
+  color: #22b973;
 }
 
 ::-moz-focus-inner {
